@@ -1,5 +1,5 @@
-**SQL CRUD Web Application**
-SQL CRUD Web Application, i created it by NodeJS and MySQL in the Server-Side and HTML, CSS, JavaScript, Jquery, Bootstrap and ReactJS in Client-Side; This project has two client view for tree reasons:
+# **SQL CRUD Web Application**
+SQL CRUD Web Application, i created it by NodeJS and MySQL in the Server-Side and HTML, CSS, JavaScript, Jquery, Bootstrap and ReactJS in Client-Side; This project has two client view for three reasons:
 1. To understand  ReactJS Web-Applications 
 2. To understand the Representational state transfer software architectural (Restful) 
 3. work with SQL database ( in this project i used MySQL)
