@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    font-family:   Helvetica, sans-serif !important;
+}
+body {
+    background-color: rgb(39, 39, 39) !important;
+    color: rgb(228, 228, 228) !important;
+}
+
+input {
+    background-color: rgb(88, 88, 88) !important;
+    border: none !important;
+    color: rgb(228, 228, 228) !important;
+}
+
+form {
+    width: 100%;
+    margin: 5% 0;
+}
+.form-group {
+    display: inline-block;
+    width: 49%;
+}
+
+#inser {
+    width: 100%;
+    display: inline-block;
+   color: black;
+    background-image: linear-gradient(90deg, #d60e0e , #f019ba  ) !important;
+    border: none;
+}
+
+#uid {
+    width: 100%;
+}

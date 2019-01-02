@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="form-group" id="uid">
+                <label>User ID</label><input class="form-control" type="text" id="UID" disabled>
+                <small id="emailHelp" class="form-text text-muted">Uniqe User Identifier, it's disabled for user to
+                    change .</small>
+            </div>
+            <div class="form-group">
+                <label>First Name</label><input class="form-control" type="text" id="firstName">
+                <small class="form-text text-muted">Your First Name.</small>
+            </div>
+            <div class="form-group">
+                <label>Last Name</label><input class="form-control" type="text" id="lastName">
+                <small class="form-text text-muted">Your Last Name.</small>
+            </div>
+            <div class="form-group">
+                <label>City</label><input class="form-control" type="text" id="city">
+                <small class="form-text text-muted">Your City.</small>
+            </div>
+            <div class="form-group">
+                <label>Postal Code</label><input class="form-control" type="text" id="postalCode">
+                <small class="form-text text-muted ">It's Postal Code, You Have to enter only Number.</small>
+            </div>
+            <div class="form-group">
+                <label>Phone Number</label><input class="form-control" type="text" id="phoneNumber">
+                <small class=" form-text text-muted  ">It's Phone Number, You Have to enter only Number.</small>
+            </div>
+            <div class="form-group">
+                <label>Position</label><input class="form-control" type="text" id="position">
+                <small class="form-text text-muted ">Your Position in office.</small>
+            </div>
+            <button type="submit" class="btn btn-primary" id="inser">Insert</button>
+        </form>
+
+        <table class="table table-dark rounded" id="tablee">
+            <thead>
+
+                <tr>
+                    <th>Index</th>
+                    <th>UID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>City</th>
+                    <th>Postal Code</th>
+                    <th>Phone Number</th>
+                    <th>Position</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+</body>
+
+</html>

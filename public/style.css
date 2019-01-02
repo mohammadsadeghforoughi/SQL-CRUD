@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #34495e !important;
+}
+
+.btnn {
+    width: 49%;
+    line-height: 50vh;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+#HtmlClient {
+    background-color: #34495e !important;
+    color: #e67e22;
+
+}
+
+#ReactClient {
+    float: right;
+    color: #ecf0f1;
+    background: linear-gradient(270deg, #e96161, #e9c561, #a1e961, #61e97b, #61e9e1, #619ee9, #9761e9, #e961db, #e96193, #e96161, #e96161, #e9c561, #a1e961, #61e97b, #61e9e1, #619ee9, #9761e9, #e961db, #e96193, #e96161);
+    background-size: 2200% 2200%;
+    -webkit-animation: AnimationName 40s ease infinite;
+    animation: AnimationName 40s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.effect {
+    color: #fff;
+    font-size: 35px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f8eb33, 0 0 30px #f8eb33, 0 0 40px #f8eb33, 0 0 55px #f8eb33, 0 0 75px #f8eb33
+}
+
+.opaciti {
+    border-radius: 0.75em;
+
+}
+
+/*Model No. TD-W8960N*/
