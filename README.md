@@ -72,6 +72,6 @@ For run the server, go to project directory and run this:
 to run the React Client on '3001' PORT
 finally, open your web browser and enter ``` localhost:3000```
 
-NOTE: You have to run the MySQL server.
+NOTE: You have to run MySQL server.
 
 Enjoy!
